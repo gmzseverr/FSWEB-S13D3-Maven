@@ -35,7 +35,8 @@ public class Person {
         return age;
     }
     public boolean isTeen(){
-        return age > 13 && age < 19;
+        return age >= 13 && age < 19;
+
     }
 
 }
